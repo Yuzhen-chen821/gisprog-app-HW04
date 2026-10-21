@@ -61,3 +61,14 @@ git push
 
 - **程式碼**（`app.py`、`Dockerfile` 等）：MIT License，見 [`LICENSE`](LICENSE)。可以自由使用、修改、公開，請保留 `LICENSE` 檔。
 - **資料**（`data/youbike_sample.csv`）：取自臺北市資料大平臺，依政府資料開放授權條款－第 1 版使用，不適用 MIT。換成自己的資料後，請在上方「資料」表格寫明來源與授權。
+## WebApp 公開網址
+
+本專案使用 Solara 開發臺北市 YouBike 2.0 站點查詢 WebApp，並透過 Docker 部署至 Render。
+
+使用者可以選擇行政區與資料時段，透過互動式地圖、統計圖表與資料表格，了解 YouBike 站點的可借車數分布。
+
+Render 公開網址：[點擊開啟 YouBike WebApp](https://gisprog-app-hw04.onrender.com/)
+
+資料來源： 臺北市資料大平臺 YouBike 2.0 資料
+
+底圖來源： 內政部國土測繪中心－臺灣通用電子地圖（WMTS）
